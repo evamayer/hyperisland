@@ -1,0 +1,42 @@
+#Create a list named listA that contains the numbers between 0 and 9
+listA = [0,1,2,3,4,5,6,7,8,9]
+
+#Create and empty list named emptyList and fill it with numbers between 0 and 9 by using the method append()
+emptyList = []
+emptyList.append(0)
+emptyList.append(1)
+emptyList.append(2)
+emptyList.append(3)
+emptyList.append(4)
+emptyList.append(5)
+emptyList.append(6)
+emptyList.append(7)
+emptyList.append(8)
+emptyList.append(9)
+
+#Print listA and emptyList and make sure both contains the same information.
+print(listA)
+print(emptyList)
+
+#By using the method insert add the value 12 inside listA in the 4th position… which index you should use?
+listA.insert(3, 12)
+print(listA)
+
+#create a copy of listA on a variable listB.
+listB = listA.copy()
+print(listB)
+
+#By using the method insert add the element “Hi” inside listA in the first position.
+listA.insert(0, "Hi")
+print(listA)
+
+#In more than one line insert the element  “Hi” inside listB in the first position by using methods reverse and append.
+listB.reverse()
+listB.append('Hi')
+print(listB)
+listB.reverse()
+print(listB)
+
+#Print listA and listB and make sure they contain the same information.
+print(listA)
+print(listB)
